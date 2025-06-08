@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="alertBox" style="display:none;" class="alert-box">
+        ✅ Payment Successful!
+      </div>
+    <div class="main">
+        <div class="items">
+            <div class="header">
+                <h2>🇧​​🇷​​🇪​​🇦​​🇩​ ​🇳​ ​🇨​​🇴</h2>
+                <p id="datetime"></p>
+            </div>
+            
+            <br><br><br><br><br><br>
+            <div class="products">
+                <ul id="prodList"></ul>
+            </div>
+        </div>
+        <div class="cart">
+            <ul id="cartList"></ul>
+            <div id="total">
+                <h3 style="font-size: 1.5em;">Total</h3>
+                <span id="totalPrice"> </span><br>
+        </div>
+        <button id="paybtn">Continue to Payment</button>
+    </div> 
+      
+</body>
+<script src="script.js"></script>
+</html>
